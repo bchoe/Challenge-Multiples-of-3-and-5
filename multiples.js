@@ -18,5 +18,7 @@ exports.sumOfAMultiple = function( n ) {
   return sum;
   	
 };
+console.log(exports.sumOfAMultiple(10));
+console.log(exports.sumOfAMultiple(100));
 console.log(exports.sumOfAMultiple(1000));
 console.log(exports.sumOfAMultiple(10000));
