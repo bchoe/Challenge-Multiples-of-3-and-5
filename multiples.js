@@ -5,18 +5,18 @@
  */
 exports.sumOfAMultiple = function( n ) {
 var sum = 0;
-for (var x=0; x<n; x++){
-	if(x%3===0 || x%5===0){
+for ( var x = 0; x < n; x++ ){
+	if( x%3===0 || x%5===0 ){
 		   sum +=x;
 	}
-	
+
 }
 
 
   // do your work here
 
   return sum;
-  	
+
 };
 console.log(exports.sumOfAMultiple(10));
 console.log(exports.sumOfAMultiple(100));
